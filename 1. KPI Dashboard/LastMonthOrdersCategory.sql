@@ -1,4 +1,4 @@
-SELECT top 1 WITH TIES
+SELECT
 Category,
 FORMAT(OrderDate,'yyyMM') as OrderDate,
 FORMAT(OrderDate,'MMM-yyy') as OrderDate2,
