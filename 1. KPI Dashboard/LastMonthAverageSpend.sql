@@ -1,4 +1,4 @@
-SELECT top 1
+SELECT
 FORMAT(OrderDate,'yyyMM') as OrderDate,
 FORMAT(OrderDate,'MMM-yyy') as OrderDate2,
 FORMAT(SUM(LineTotal)/COUNT(DISTINCT([SalesOrderID])),'C2') as AverageOrder
