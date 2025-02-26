@@ -12,7 +12,7 @@ For the KPI Dashboard, I identified the following KPIs:
 For each KPI, the most recent month's performance will be shown, however there will also be a drill-down available in order to see the value of the KPI over time.
 There will also be a lifetime value of each KPI shown to track long term achievement. The monthly or lifetime view will be controlled by a button on the page.
 
-##SQL
+## SQL
 
 I created a view using the following query (a copy of this is included in the files):
 ```
