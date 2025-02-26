@@ -26,7 +26,7 @@ FROM [Sales].[SalesTerritory]) terr on SalesH.TerritoryID = terr.TerritoryID
 
 SELECT 
 SalesD.SalesOrderID,
-format(terr.OrderDate,'dd/MM/yyyy') as OrderDate,
+OrderDate,
 SalesD.OrderQty,
 SalesD.LineTotal,
 cat.Category,
