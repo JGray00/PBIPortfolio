@@ -1,4 +1,4 @@
-CREATE VIEW Sales.vSaleSummary AS
+CREATE VIEW Sales.vSalesSummary AS
 
 --intermediate table construction to have table of ProductIDs by Category
 WITH cat as (SELECT
