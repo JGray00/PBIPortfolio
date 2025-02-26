@@ -1,4 +1,4 @@
-# KPI Dashboard
+# Business KPI Dashboard
 For the KPI Dashboard, I identified the following KPIs:
 - Total Sales
 - Total Orders
