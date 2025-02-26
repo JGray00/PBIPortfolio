@@ -1,2 +1,2 @@
-SELECT FORMAT(SUM(LineTotal),'#,0.00') As TotalSales
+SELECT FORMAT(SUM(LineTotal),'C2') As TotalSales
 FROM [Sales].[vSalesSummary]
