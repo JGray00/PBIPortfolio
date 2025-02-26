@@ -1,4 +1,4 @@
-SELECT top 1
+SELECT
 FORMAT(OrderDate,'yyyMM') as OrderDate,
 FORMAT(OrderDate,'MMM-yyy') as OrderDate2,
 COUNT(DISTINCT([SalesOrderID])) as TotalOrders
