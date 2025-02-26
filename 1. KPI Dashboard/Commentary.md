@@ -13,7 +13,7 @@ There will also be a lifetime value of each KPI shown to track long term achieve
 
 I created a view using the following query (a copy of this is included in the files):
 ```
-CREATE VIEW Sales.vSaleSummary AS
+CREATE VIEW Sales.vSalesSummary AS
 
 --intermediate table construction to have table of ProductIDs by Category
 WITH cat as (SELECT
