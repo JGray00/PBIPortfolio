@@ -12,5 +12,5 @@ GROUP BY SalesOrderID
 
 
 SELECT 
-AVG(OrderSize)
+AVG(OrderSize) as OrderSize
 FROM #tmp1
