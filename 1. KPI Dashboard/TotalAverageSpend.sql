@@ -1,3 +1,3 @@
 SELECT 
-FORMAT(SUM(LineTotal)/COUNT(DISTINCT([SalesOrderID])),'C2') as AverageOrder
+SUM(LineTotal)/COUNT(DISTINCT([SalesOrderID])) as AverageOrder
 FROM [Sales].[vSalesSummary]
