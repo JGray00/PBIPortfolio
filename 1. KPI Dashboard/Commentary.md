@@ -59,11 +59,11 @@ JOIN terr on SalesD.SalesOrderID = terr.SalesOrderID
 and then this view was used to create particular summaries, the queries for which can be found in this folder.
 
 ## PowerBI
-Firstly, each query was imported into PowerBI by connecting to the SQL server using the 'Import' Data Connectivity mode. The full dataset (i.e. the one put in to a view above) is also included for completeness, as some of the calculations done in the SQL queries could also have been done using DAX, which I have included as a secondary option.
+Firstly, each query was imported into PowerBI by connecting to the SQL server using the 'Import' Data Connectivity mode. The full dataset (i.e. the one put in to a view above) is also included for completeness, as some of the visuals could be done better through single dataset.
 
 ![image](https://github.com/user-attachments/assets/765feaef-4477-449a-9b30-8bbe8f58e1c1)
 ![image](https://github.com/user-attachments/assets/75f3e7e3-c4e9-480c-aa0b-67001a6ded2e)
 
 
-This is a screenshot of the final report, as well as a screenshot of the separate monthly trend page. This layout was also duplicated to show DAX usage and interconnected visuals from a single dataset.
+This is a screenshot of the final report, as well as a screenshot of the separate monthly trend page. This layout was also duplicated to show interconnected visuals from a single dataset.
 
