@@ -27,6 +27,8 @@ FROM [Sales].[SalesTerritory]) terr on SalesH.TerritoryID = terr.TerritoryID
 SELECT 
 SalesD.SalesOrderID,
 OrderDate,
+FORMAT(OrderDate,'yyyMM') as OrderYearMonth,
+FORMAT(OrderDate,'MMM-yyy') as OrderYearMonth2,
 SalesD.OrderQty,
 SalesD.LineTotal,
 cat.Category,
