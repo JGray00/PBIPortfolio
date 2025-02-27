@@ -67,3 +67,8 @@ Firstly, each query was imported into PowerBI by connecting to the SQL server us
 
 This is a screenshot of the final report, as well as a screenshot of the separate monthly trend page. This layout was also duplicated to show interconnected visuals from a single dataset.
 
+Some methods of filtering and organising data (particularly with dates) was done in a way that is not typical in a real life setting as the data is only until 2014 and so filtering by the past month is not as easily done when looking at historic viewpoints (for example, a filter of "last 1 month" would not work with data like this). Typically a filter would be used if data from a particular month was intended to be viewed.
+
+Some of the visualisations in the second version of the report use the queries produced for the first version, particularly the averages due to the more complex nature of calculating from a single dataset using DAX and in a real life setting a separate SQL query would be used.
+
+The second version of the report is my preferred method largely due to the more interconnected nature of the data, allowing for multidimensionality (as can be seen when looking at category sales by region, for example).
