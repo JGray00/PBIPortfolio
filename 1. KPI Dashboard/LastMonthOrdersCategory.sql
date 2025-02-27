@@ -2,7 +2,7 @@ SELECT
 Category,
 FORMAT(OrderDate,'yyyMM') as OrderDate,
 FORMAT(OrderDate,'MMM-yyy') as OrderDate2,
-COUNT(DISTINCT([SalesOrderID])) as TotalOrders
+COUNT(OrderQty) as TotalItems
 FROM [Sales].[vSalesSummary]
 
 GROUP BY 
