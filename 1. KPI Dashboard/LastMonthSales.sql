@@ -1,7 +1,7 @@
 SELECT
 FORMAT(OrderDate,'yyyMM') as OrderDate,
 FORMAT(OrderDate,'MMM-yyy') as OrderDate2,
-FORMAT(SUM(LineTotal),'C2') As TotalSales
+SUM(LineTotal) As TotalSales
 FROM [Sales].[vSalesSummary]
 
 GROUP BY 
