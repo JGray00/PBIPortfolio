@@ -1,3 +1,4 @@
+# 1. AdventureWorks Dashboard
 This report is intended to show skills with bringing in data from a relational database that is well structured and requires minimal manipulation. This represents a "best case scenario" workflow where data can be easily imported to PowerBI and using simple measures visualise the data in multiple ways and for multiple purposes.
 
 Firstly, a schema was devloped externally from PowerBI, defining the fact and dimension tables and producing the following schema:
