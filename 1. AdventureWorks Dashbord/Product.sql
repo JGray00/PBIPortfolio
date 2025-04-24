@@ -8,7 +8,7 @@ END as Subcategory,
 CASE
 	WHEN ProdCat.Name is null THEN CAST('Other' as varchar) 
 	ELSE CAST(ProdCat.Name as varchar)
-END as Subcategory
+END as Category
 
 FROM [Production].[ProductSubcategory] ProdSub
 FULL JOIN Production.[Product] Prod on ProdSub.ProductSubcategoryID = Prod.ProductSubcategoryID
