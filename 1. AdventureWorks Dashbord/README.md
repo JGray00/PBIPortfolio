@@ -1,7 +1,7 @@
 # 1. AdventureWorks Dashboard
 This report is intended to show skills with bringing in data from a relational database that is well structured and requires minimal manipulation. This represents a "best case scenario" workflow where data can be easily imported to PowerBI and using simple measures visualise the data in multiple ways and for multiple purposes.
 
-Firstly, a schema was devloped externally from PowerBI, defining the fact and dimension tables and producing the following schema:
+Firstly, a schema was developed externally from PowerBI, defining the fact and dimension tables and producing the following schema:
 
 Then, the SQL queries included in this folder were used to import the tables to PowerBI. The SQL queries were structured in a particular manner in order to provide a consistent and self-annotating format. This is why for each field, the CAST function was used in order to explicitly declare the data type, meaning no conversion was required in Power Query, and an alias is always declared for each field. 
 
